@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin: auto;
+    background-color:rgb(20, 20, 20);
+    height: 1000px;
+}
+.contenedor-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(imagenes/fondo1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.logo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+}
+.nav-head{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    height: 60px;
+    
+}
+.ul-head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+ .icono{
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(36, 29, 29, 0.9);
+    margin: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+   
+    
+}
+.icono:hover{
+    background-color: rgba(223, 219, 219, 0.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(248, 246, 246, 0.5);
+}
+
+.contenedor-modalidades{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: gray;
+
+}
+
+.imagen-modalidad{
+    width: 50px;
+
+}
+.caja-modalidad {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 60px;
+    
+    
+}
+a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;  
+    text-decoration: none;
+}
+
+.a-modalidad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    background-color: crimson;
+    color: white;
+}
+.a-modalidad:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(248, 246, 246, 0.5);
+}
+.modalidad{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+.imagen-modalidad{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 5px;
+}
+.titulo-modalidad{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
